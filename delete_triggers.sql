@@ -1,0 +1,10 @@
+DROP TRIGGER check_age_operative ON Operative;
+DROP TRIGGER check_age_captive ON Captive;
+DROP TRIGGER check_anomaly_location ON Anomaly;
+DROP TRIGGER check_location_coordinates ON Location;
+DROP TRIGGER validate_squad ON Squad;
+DROP FUNCTION validate_operative;
+DROP FUNCTION validate_captive;
+DROP FUNCTION validate_anomaly;
+DROP FUNCTION validate_location;
+DROP FUNCTION validate_squad;

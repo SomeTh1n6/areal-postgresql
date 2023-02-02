@@ -1,0 +1,10 @@
+DROP FUNCTION get_anomaly_from_operative(oper_name text);
+DROP FUNCTION get_anomaly_from_operative(oper_id integer);
+DROP FUNCTION get_mets_from_operative;
+DROP FUNCTION get_eqp_from_operative;
+DROP FUNCTION get_kills_from_operative(oper_name text);
+DROP FUNCTION get_kills_from_operative(oper_id integer);
+DROP FUNCTION check_coordinates;
+DROP PROCEDURE update_rank_operative;
+DROP PROCEDURE update_brigade_citizen;
+DROP PROCEDURE update_zone_location;
